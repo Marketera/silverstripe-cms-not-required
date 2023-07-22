@@ -19,7 +19,7 @@
         }
     ],
     "replace": {
-        "silverstripe/cms":"4.0.0",
+        "silverstripe/cms":"4.0.0"
     },
     "require": {},
     "require-dev": {},
