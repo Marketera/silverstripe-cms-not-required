@@ -1,0 +1,30 @@
+{
+    "name": "marketera/silverstripe-cms-not-required",
+    "type": "silverstripe-vendormodule",
+    "description": "This module overrides the SilverStripe CMS in cases where we don't want the CMS installed but dependencies incorrectly require 'silverstripe/cms' instead of 'silverstripe/framework'",
+    "homepage": "http://www.marketera.com",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "cms"
+    ],
+    "authors": [
+        {
+            "name": "Marketera",
+            "homepage": "https://www.marketera.com"
+        },
+        {
+            "name": "Nathan J. Brauer",
+            "homepage": "https://www.nathanjbrauer.com"
+        }
+    ],
+    "replace": {
+        "silverstripe/cms":"*"
+    },
+    "require": {},
+    "require-dev": {},
+    "extra": {},
+    "config": {},
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
